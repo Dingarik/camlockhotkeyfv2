@@ -1,24 +1,17 @@
 game.StarterGui:SetCore(
 	"SendNotification",
 	{
-		Title = "DingaHub",
+		Title = "DingaHub Camlock V2",
 		Text = "Loading...",
 	}
 )
-wait(!)
+wait(3)
+
 game.StarterGui:SetCore(
 	"SendNotification",
 	{
-		Title = "DingaHub",
-		Text = "CamlockV2 Loaded! Enjoy!",
-	}
-)
-wait(1)
-game.StarterGui:SetCore(
-	"SendNotification",
-	{
-		Title = "DingaHub",
-		Text = "HotKey - F",
+		Title = "DingaHub Camlock V2",
+		Text = "Loaded! Enjoy!",
 	}
 )
 getgenv().NemesisPreBeta = {
